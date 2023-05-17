@@ -1,14 +1,12 @@
 # MultiplicationCircleFinal
-The purpose of the program is to provide an interactive and visually captivating experience by generating an animation on a canvas. The animation is based on a modular multiplication circle, where users can control various factors to customize the visual output.
-
 ## Table of Contents
-
+- [Overview](#Overview)
 - [The Breakdown](#The-Breakdown)
-- [Section 2](#section-2)
-- [Section 3](#section-3)
-  - [Subsection 3.1](#subsection-3.1)
-  - [Subsection 3.2](#subsection-3.2)
-- [Section 4](#section-4)
+- [Summary](#Summary)
+- [More About Multiplication Circles](#More-About-Multiplication-Circles)
+
+## Overview
+The purpose of the program is to provide an interactive and visually captivating experience by generating an animation on a canvas. The animation is based on a modular multiplication circle, where users can control various factors to customize the visual output.
 
 ## The Breakdown
 Here's a breakdown of the program's functionality:
@@ -25,7 +23,7 @@ Here's a breakdown of the program's functionality:
 * The **mapRange()** function maps a value from one range to another range.
 * The **setup()** function is called to perform the initial setup of the canvas and other variables.
 
-## Overview
+## Summary
 Comments are provided throughout the code to explain the purpose and functionality of different sections.
 Overall, the program offers an interactive interface for controlling a modular multiplication circle by adjusting various factors. Users can manipulate the total number of points in the circle and the factor by which each point rotates, observing the resulting visual patterns in real-time on the canvas. Additionally, the program provides different color modes, including index hue, length hue, color hue, and plain white, allowing users to explore and experiment with different color variations. With these controls, users can gain insights into the fascinating world of modular multiplication and its captivating visual representations.
 
