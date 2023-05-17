@@ -1,20 +1,29 @@
 # MultiplicationCircleFinal
 The purpose of the program is to provide an interactive and visually captivating experience by generating an animation on a canvas. The animation is based on a modular multiplication circle, where users can control various factors to customize the visual output.
 
+## Table of Contents
+
+- [Section 1](#The Breakdown)
+- [Section 2](#section-2)
+- [Section 3](#section-3)
+  - [Subsection 3.1](#subsection-3.1)
+  - [Subsection 3.2](#subsection-3.2)
+- [Section 4](#section-4)
+
 ## The Breakdown
 Here's a breakdown of the program's functionality:
 
 * The program sets up the canvas, initializes variables, and draws the initial frame.
-The **getVector()** function calculates the coordinates of a vector based on its index and the total number of elements.
-Event listeners are added to mode selection buttons (**lengthHueBtn**, **colorHueBtn**, **indexHueBtn**, **white**) to allow users to choose different color rendering modes.
-The **draw()** function is responsible for clearing the canvas, updating animation parameters, updating display values, and rendering the elements based on the selected mode.
-The **toggleAnimation()** function toggles the animation flag and starts or stops the animation accordingly.
-The **startAnimation()** function initiates the animation by requesting the first frame.
-The **stopAnimation()** function stops the animation by canceling the animation frame request.
-The **processNumbers()** function retrieves user input values for total, factor, and speed, processes them, updates the display, and redraws the canvas with the new values. It also handles cases where user input is not a valid number.
-An event listener is added to handle window resize and trigger the **setup()** function to adjust the canvas dimensions.
-The **mapRange()** function maps a value from one range to another range.
-The **setup()** function is called to perform the initial setup of the canvas and other variables.
+* The **getVector()** function calculates the coordinates of a vector based on its index and the total number of elements.
+* Event listeners are added to mode selection buttons (**lengthHueBtn**, **colorHueBtn**, **indexHueBtn**, **white**) to allow users to choose different color rendering modes.
+* The **draw()** function is responsible for clearing the canvas, updating animation parameters, updating display values, and rendering the elements based on the selected mode.
+* The **toggleAnimation()** function toggles the animation flag and starts or stops the animation accordingly.
+* The **startAnimation()** function initiates the animation by requesting the first frame.
+* The **stopAnimation()** function stops the animation by canceling the animation frame request.
+* The **processNumbers()** function retrieves user input values for total, factor, and speed, processes them, updates the display, and redraws the canvas with the new values. It also handles cases where user input is not a valid number.
+* An event listener is added to handle window resize and trigger the **setup()** function to adjust the canvas dimensions.
+* The **mapRange()** function maps a value from one range to another range.
+* The **setup()** function is called to perform the initial setup of the canvas and other variables.
 
 ## Overview
 Comments are provided throughout the code to explain the purpose and functionality of different sections.
