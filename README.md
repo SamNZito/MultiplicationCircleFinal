@@ -3,7 +3,7 @@ The purpose of the program is to provide an interactive and visually captivating
 
 ## Table of Contents
 
-- [Section 1](#The Breakdown)
+- [The Breakdown](#section-2)
 - [Section 2](#section-2)
 - [Section 3](#section-3)
   - [Subsection 3.1](#subsection-3.1)
