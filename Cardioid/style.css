@@ -1,0 +1,52 @@
+   #button-container {
+     position: absolute;
+     top: 20px;
+     left: 20px;
+     z-index: 1;
+   }
+
+   #animate-container {
+    position: absolute;
+    top: 125px;
+    left: 20px;
+    z-index: 1;
+  }
+  #numbers-container{
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    z-index: 1;
+    color: white;
+  }
+   #input-container{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    z-index: 1;
+   }
+   #input2-container{
+    position: absolute;
+    top: 25px;
+    z-index: 1;
+   }
+   #input3-container{
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+   }
+   #totalDisplay{
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+   }
+   #factorDisplay{
+    position: absolute;
+    top: 40px;
+    z-index: 1;
+   }
+   #speedDisplay{
+    position: absolute;
+    top: 80px;
+    z-index: 1;
+   }
+
